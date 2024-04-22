@@ -1,3 +1,17 @@
 @tailwind base;
 @tailwind components;
 @tailwind utilities;
+.nav-pills .nav-link.active, .nav-pills .show>.nav-link {
+    color: black !important;
+    background-color: #c2c6cd !important;
+    font-weight: bold;
+}
+
+.nav-pills .nav-link{
+    font-weight: bold;
+    color: black !important;
+}
+
+.card-body {
+    padding: 0 !important;
+}
