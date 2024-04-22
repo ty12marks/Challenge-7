@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta viewport="width=device-width, initial-scale=1.0">
+    <title>Dribbble Replica with Tailwind</title>
+    <link href="https://cdn.tailwindcss.com" rel="stylesheet">
+</head>
+<body class="bg-gray-100">
+    <nav class="bg-white px-4 py-3 shadow-md">
+        <div class="container mx-auto flex justify-between items-center">
+            <a href="#" class="text-xl font-semibold text-gray-900">Dribbble Clone</a>
+            <div class="space-x-4">
+                <a href="#" class="text-gray-600 hover:text-gray-800">Home</a>
+                <a href="#" class="text-gray-600 hover:text-gray-800">Features</a>
+            </div>
+        </div>
+    </nav>
+
+    <div class="container mx-auto mt-4">
+        <div class="grid grid-cols-1 sm:grid-cols-2 md:grid-cols-3 lg:grid-cols-4 gap-4">
+            <!-- Example Card -->
+            <div class="bg-white rounded-lg shadow-lg overflow-hidden">
+                <img src="https://via.placeholder.com/300" alt="Design Thumbnail" class="w-full">
+                <div class="p-4">
+                    <h5 class="text-lg font-bold">Design Title</h5>
+                    <p class="text-gray-700 mt-1">Short description of the design here.</p>
+                    <a href="#" class="inline-block mt-3 text-blue-500">View Details</a>
+                </div>
+            </div>
+            <!-- Repeat cards for other designs -->
+        </div>
+    </div>
+
+    <footer class="bg-white text-center text-sm p-4 mt-8 shadow-md">
+        © 2024 Dribbble Clone: All rights reserved.
+    </footer>
+</body>
+</html>
